@@ -2,7 +2,10 @@ target/
 .classpath
 .project
 .settings/
-target/
+# Eclipse specific files
+
+*/target/*
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
